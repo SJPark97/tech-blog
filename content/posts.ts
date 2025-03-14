@@ -1,7 +1,16 @@
 import post1 from '../notion-data/126ce18c-fd83-8023-9ad1-d0e1809b21c3.json'
 import post2 from '../notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02.json'
+import gitHook from '../notion-data/1a7dee7c-b4ee-80d1-bcd1-c785dd428d57.json'
 
 const posts = [
+  {
+    title: "첫 번째 블로그 포스트",
+    slug: "first-post",
+    content: gitHook,
+    date: "2024-10-22",
+    description: "블로그를 시작하며...",
+    image: undefined
+  },
   {
     title: "Maximizing the Benefits of BFF Pattern in API Design",
     slug: "api-design-in-bff",

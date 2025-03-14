@@ -1,0 +1,2011 @@
+{
+  "object": "page",
+  "id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57",
+  "created_time": "2025-02-27T01:11:00.000Z",
+  "last_edited_time": "2025-02-28T04:30:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "page_id",
+    "page_id": "16fdee7c-b4ee-8005-ba5e-f5a14ce90f6a"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Git Hook을 활용한 AI 기반 Commit Message 자동 생성 (ChatGPT → Gemini 전환)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Git Hook을 활용한 AI 기반 Commit Message 자동 생성 (ChatGPT → Gemini 전환)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Git-Hook-AI-Commit-Message-ChatGPT-Gemini-1a7dee7cb4ee80d1bcd1c785dd428d57",
+  "public_url": "https://familiar-butternut-c15.notion.site/Git-Hook-AI-Commit-Message-ChatGPT-Gemini-1a7dee7cb4ee80d1bcd1c785dd428d57",
+  "request_id": "bf4df2fe-bdcc-40e7-989c-e46e831e7e2e",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80de-9ed6-d50ccc38e1a7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:14:00.000Z",
+      "last_edited_time": "2025-02-27T01:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8055-b57c-f1e7c3c3b988",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:14:00.000Z",
+      "last_edited_time": "2025-02-27T01:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "개요",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개요",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-803e-bbe9-e7a7f7a0b0b0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:21:00.000Z",
+      "last_edited_time": "2025-02-27T01:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기존에는 OpenAI의 ChatGPT API(gpt-4-turbo)를 활용하여 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기존에는 OpenAI의 ChatGPT API(gpt-4-turbo)를 활용하여 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Git Hook을 통한 커밋 메시지 자동 생성",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Git Hook을 통한 커밋 메시지 자동 생성",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 구현했음.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 구현했음.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8020-b1af-eef0afe1e68c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:21:00.000Z",
+      "last_edited_time": "2025-02-27T01:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러나 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러나 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "비용 절감 및 Google Cloud 서비스 연동",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비용 절감 및 Google Cloud 서비스 연동",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 위해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 위해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Google Gemini API(gemini-2.0-flash)로 변경",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Google Gemini API(gemini-2.0-flash)로 변경",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하는 작업을 진행함.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하는 작업을 진행함.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80e4-8cef-c5d9c60120a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:21:00.000Z",
+      "last_edited_time": "2025-02-27T01:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문서에서는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문서에서는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "ChatGPT → Gemini 변경 과정에서 적용된 주요 변경 사항",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ChatGPT → Gemini 변경 과정에서 적용된 주요 변경 사항",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 중심으로 설명함.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 중심으로 설명함.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80f1-a357-ec30073c5fb8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:22:00.000Z",
+      "last_edited_time": "2025-02-27T01:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-809a-bee1-e89837fa4e25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:21:00.000Z",
+      "last_edited_time": "2025-02-27T01:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 주요 변경 사항 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 주요 변경 사항 요약",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:22:00.000Z",
+      "last_edited_time": "2025-02-27T01:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "table",
+      "table": {
+        "table_width": 3,
+        "has_column_header": false,
+        "has_row_header": false
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1a7dee7c-b4ee-8038-ad14-e71b215065e5",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942"
+          },
+          "created_time": "2025-02-27T01:22:00.000Z",
+          "last_edited_time": "2025-02-27T01:22:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "변경 항목",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "변경 항목",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "기존(ChatGPT)",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "기존(ChatGPT)",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "변경(Gemini)",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "변경(Gemini)",
+                  "href": null
+                }
+              ]
+            ]
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1a7dee7c-b4ee-808a-95c0-c9a3e660c9cc",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942"
+          },
+          "created_time": "2025-02-27T01:22:00.000Z",
+          "last_edited_time": "2025-02-27T01:23:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "API 엔드포인트",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "API 엔드포인트",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "https://api.openai.com/v1/chat/completions\t",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "https://api.openai.com/v1/chat/completions\t",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent",
+                  "href": null
+                }
+              ]
+            ]
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1a7dee7c-b4ee-8056-8cfd-d9a98af9b24d",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942"
+          },
+          "created_time": "2025-02-27T01:22:00.000Z",
+          "last_edited_time": "2025-02-27T01:24:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "요청 데이터 구조",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "요청 데이터 구조",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "\"messages\": [{role: \"system\", content: \"...\"}]",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "\"messages\": [{role: \"system\", content: \"...\"}]",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "\"contents\": [{parts: [{text: \"...\"}]}]",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "\"contents\": [{parts: [{text: \"...\"}]}]",
+                  "href": null
+                }
+              ]
+            ]
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1a7dee7c-b4ee-80fb-8f98-d3762d9f1cd6",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942"
+          },
+          "created_time": "2025-02-27T01:22:00.000Z",
+          "last_edited_time": "2025-02-27T01:24:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "응답 데이터 구조",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "응답 데이터 구조",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": ".choices[0].message.content",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": ".choices[0].message.content",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": ".candidates[0].content.parts[0].text",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": ".candidates[0].content.parts[0].text",
+                  "href": null
+                }
+              ]
+            ]
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1a7dee7c-b4ee-80a6-867e-d5cff82a35bb",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942"
+          },
+          "created_time": "2025-02-27T01:22:00.000Z",
+          "last_edited_time": "2025-02-27T01:24:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "요청 방식",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "요청 방식",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "generateText 사용",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "generateText 사용",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "generateContent 사용",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "generateContent 사용",
+                  "href": null
+                }
+              ]
+            ]
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1a7dee7c-b4ee-80d3-b75a-f1fc16191d69",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942"
+          },
+          "created_time": "2025-02-27T01:22:00.000Z",
+          "last_edited_time": "2025-02-28T04:30:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "백틱(```) 제거 방식",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "백틱(```) 제거 방식",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "필요 없음",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "필요 없음",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "AI 응답에 코드블럭(```) 포함됨 → sed ’s/`//g'로 삭제",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "AI 응답에 코드블럭(```) 포함됨 → sed ’s/`//g'로 삭제",
+                  "href": null
+                }
+              ]
+            ]
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1a7dee7c-b4ee-8063-b79d-d171ae5826d7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1a7dee7c-b4ee-80ad-ae9e-c18474c27942"
+          },
+          "created_time": "2025-02-27T01:22:00.000Z",
+          "last_edited_time": "2025-02-27T01:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_row",
+          "table_row": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "커밋 템플릿 파일",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "커밋 템플릿 파일",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "없음",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "없음",
+                  "href": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "commit-template.md (Markdown)",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "commit-template.md (Markdown)",
+                  "href": null
+                }
+              ]
+            ]
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80cf-8168-e2418f80ae9b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:25:00.000Z",
+      "last_edited_time": "2025-02-27T01:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8045-adaa-ca9019f9f211",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:22:00.000Z",
+      "last_edited_time": "2025-02-27T01:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 구현 코드 변경 사항",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 구현 코드 변경 사항",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8012-8fc9-da60bb50cb49",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:26:00.000Z",
+      "last_edited_time": "2025-02-27T01:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8002-9dfd-cba42aa832f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:25:00.000Z",
+      "last_edited_time": "2025-02-27T01:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.1 commit-msg Git Hook 변경 사항",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.1 commit-msg Git Hook 변경 사항",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80e9-8027-dabdc32f01a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:26:00.000Z",
+      "last_edited_time": "2025-02-27T01:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기존 ChatGPT API를 호출하던 코드에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기존 ChatGPT API를 호출하던 코드에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Gemini API 요청 방식 및 JSON 구조를 변경",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gemini API 요청 방식 및 JSON 구조를 변경",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "함.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "함.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-808c-beed-cae6ff844dba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:26:00.000Z",
+      "last_edited_time": "2025-02-27T01:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "커밋 메시지 템플릿 활용",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "커밋 메시지 템플릿 활용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8048-bd4e-c62210d3af5c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:28:00.000Z",
+      "last_edited_time": "2025-02-27T01:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ChatGPT API 요청 방식 (messages[]) → ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ChatGPT API 요청 방식 (messages[]) → ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Gemini API 방식 (contents[]) 변경",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gemini API 방식 (contents[]) 변경",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8046-9920-c5d299bade0e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:26:00.000Z",
+      "last_edited_time": "2025-02-28T04:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "백틱(```) 자동 제거 추가 (sed ’s/`//g')",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "백틱(```) 자동 제거 추가 (sed ’s/`//g')",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80d5-947d-cfbe8778c006",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:26:00.000Z",
+      "last_edited_time": "2025-02-27T01:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "API 응답 추출 방식 변경 (.choices[0].message.content → .candidates[0].content.parts[0].text)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "API 응답 추출 방식 변경 (.choices[0].message.content → .candidates[0].content.parts[0].text)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-800e-afee-fd00ea1144f4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:13:00.000Z",
+      "last_edited_time": "2025-02-27T01:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "#!/bin/bash\n\n# 🔍 Git Hook 실행 로그 저장\necho \"Git Hook 실행됨!\" >> /tmp/git-hook-debug.log\necho \"현재 커밋 메시지 파일 경로: $1\" >> /tmp/git-hook-debug.log\n\n# 🔑 OpenAI API Key 설정\nGEMINI_API_KEY=$GEMINI_API_KEY\n\n# 🏷 현재 Git 브랜치명 가져오기\nBRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)\n\n# 📂 변경된 파일 및 코드 내용 가져오기\nDIFF_CONTENT=$(git diff --cached)\n\n# 📄 커밋 메시지 템플릿 불러오기\nTEMPLATE_FILE=\"./hooks/commit-template.md\"\nTEMPLATE_CONTENT=$(cat \"$TEMPLATE_FILE\")\n\n# 🔗 Gemini API 요청\nAI_RESPONSE=$(curl -s -X POST \"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$GEMINI_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d \"$(jq -n \\\n    --arg branch \"$BRANCH_NAME\" \\\n    --arg template \"$TEMPLATE_CONTENT\" \\\n    --arg diff \"$DIFF_CONTENT\" \\\n    '{\n      \"contents\": [{\n        \"parts\": [{\n            \"text\": (\"아래 템플릿에 맞춰 Git 커밋 메시지를 작성하세요. 템플릿 형식을 정확하게 따르세요. 절대로 임의 변경 하지 마세요.\\n\\n\" +\n                 \"=== 현재 브랜치 명 ===\\n\" + $branch + \"\\n\\n\" +\n                 \"=== 템플릿 ===\\n\" + $template + \"\\n\\n\" +\n                 \"=== 변경된 코드 ===\\n\" + $diff)\n        }]\n      }]\n    }'\n  )\"\n)\n\n# test\necho \"AI 응답: $AI_RESPONSE\"\n\n# 📝 Gemini 응답에서 메시지 추출 (Gemini AI가 답변을 코드블럭에 넣어서 제공하기 때문에 코드블럭 제거)\nSUMMARY=$(echo \"$AI_RESPONSE\" | jq -r '.candidates[0].content.parts[0].text' | sed 's/`//g')\n\n# ⚠️ AI가 메시지를 생성하지 못했을 경우 기본 메시지 적용\nif [[ -z \"$SUMMARY\" || \"$SUMMARY\" == \"null\" ]]; then\n  echo \"⚠️ AI가 메시지를 생성하지 못함! 기본 메시지를 사용합니다.\" >> /tmp/git-hook-debug.log\n  SUMMARY=\"[chore] 자동 생성 실패 - 커밋 메시지 직접 작성 필요\"\nfi\n\necho \"AI 생성 커밋 메시지: $SUMMARY\" >> /tmp/git-hook-debug.log\necho \"$SUMMARY\" > \"$1\"\n\n# ✍️ AI가 생성한 메시지를 사용자가 편집할 수 있도록 vi 또는 기본 에디터 실행\n${EDITOR:-vi} \"$1\"\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "#!/bin/bash\n\n# 🔍 Git Hook 실행 로그 저장\necho \"Git Hook 실행됨!\" >> /tmp/git-hook-debug.log\necho \"현재 커밋 메시지 파일 경로: $1\" >> /tmp/git-hook-debug.log\n\n# 🔑 OpenAI API Key 설정\nGEMINI_API_KEY=$GEMINI_API_KEY\n\n# 🏷 현재 Git 브랜치명 가져오기\nBRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)\n\n# 📂 변경된 파일 및 코드 내용 가져오기\nDIFF_CONTENT=$(git diff --cached)\n\n# 📄 커밋 메시지 템플릿 불러오기\nTEMPLATE_FILE=\"./hooks/commit-template.md\"\nTEMPLATE_CONTENT=$(cat \"$TEMPLATE_FILE\")\n\n# 🔗 Gemini API 요청\nAI_RESPONSE=$(curl -s -X POST \"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$GEMINI_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d \"$(jq -n \\\n    --arg branch \"$BRANCH_NAME\" \\\n    --arg template \"$TEMPLATE_CONTENT\" \\\n    --arg diff \"$DIFF_CONTENT\" \\\n    '{\n      \"contents\": [{\n        \"parts\": [{\n            \"text\": (\"아래 템플릿에 맞춰 Git 커밋 메시지를 작성하세요. 템플릿 형식을 정확하게 따르세요. 절대로 임의 변경 하지 마세요.\\n\\n\" +\n                 \"=== 현재 브랜치 명 ===\\n\" + $branch + \"\\n\\n\" +\n                 \"=== 템플릿 ===\\n\" + $template + \"\\n\\n\" +\n                 \"=== 변경된 코드 ===\\n\" + $diff)\n        }]\n      }]\n    }'\n  )\"\n)\n\n# test\necho \"AI 응답: $AI_RESPONSE\"\n\n# 📝 Gemini 응답에서 메시지 추출 (Gemini AI가 답변을 코드블럭에 넣어서 제공하기 때문에 코드블럭 제거)\nSUMMARY=$(echo \"$AI_RESPONSE\" | jq -r '.candidates[0].content.parts[0].text' | sed 's/`//g')\n\n# ⚠️ AI가 메시지를 생성하지 못했을 경우 기본 메시지 적용\nif [[ -z \"$SUMMARY\" || \"$SUMMARY\" == \"null\" ]]; then\n  echo \"⚠️ AI가 메시지를 생성하지 못함! 기본 메시지를 사용합니다.\" >> /tmp/git-hook-debug.log\n  SUMMARY=\"[chore] 자동 생성 실패 - 커밋 메시지 직접 작성 필요\"\nfi\n\necho \"AI 생성 커밋 메시지: $SUMMARY\" >> /tmp/git-hook-debug.log\necho \"$SUMMARY\" > \"$1\"\n\n# ✍️ AI가 생성한 메시지를 사용자가 편집할 수 있도록 vi 또는 기본 에디터 실행\n${EDITOR:-vi} \"$1\"\n",
+            "href": null
+          }
+        ],
+        "language": "bash"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80bd-b6ad-cfb14b0a13ee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:27:00.000Z",
+      "last_edited_time": "2025-02-27T01:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-800c-9c27-f1f971c27627",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:14:00.000Z",
+      "last_edited_time": "2025-02-27T01:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.2 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.2 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "커밋 메시지 템플릿 (commit-template.md) 추가",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "커밋 메시지 템플릿 (commit-template.md) 추가",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8087-8833-d3095a731865",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:27:00.000Z",
+      "last_edited_time": "2025-02-27T01:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기존에 commit-msg 파일에 포함되어 있던 커밋 메시지 템플릿을 Markdown 파일(.md)로 추출",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기존에 commit-msg 파일에 포함되어 있던 커밋 메시지 템플릿을 Markdown 파일(.md)로 추출",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80eb-af9a-ef5116649305",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:28:00.000Z",
+      "last_edited_time": "2025-02-27T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Markdown 형식으로 가독성 향상",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Markdown 형식으로 가독성 향상",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8049-b92d-e02fa452e751",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:14:00.000Z",
+      "last_edited_time": "2025-02-27T01:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "제목은 영어로 작성\n\n[커밋 타입] <현재 브랜치 명> <제목>\n\nex)\n\n[fix] CONBA-232 Fix error that occurred when clicking table column\n\n본문 - 한 줄에 최대 72 글자까지만 입력하기\n\n무엇을, 왜, 어떻게 했는지 .. 상대방이 의도를 알아줄 것이라는 추측은 배제하고 한글 작성\n\nex)\n\n- 테이블 컬럼 부분 클릭 시 발생하는 스크립트 오류 수정\n- 테이블 컬럼 'selected' 스타일 수정\n\n꼬리말\n\nRef: <현재 브랜치 명>\n\nex)\n\nRef: CONBA-232\n\n# 참고\n\n## 커밋 타입 리스트\n\n- [feat] : 기능 (새로운 기능)\n- [fix] : 버그 (버그 수정)\n- [refact] : 리팩토링\n- [rename] : 파일 혹은 폴더명을 수정하거나 옮기는 작업만 하는 경우\n- [remove] : 파일을 삭제하는 작업만 수행한 경우 design : CSS 등 사용자 UI 디자인 변경\n- [style] : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)\n- [docs] : 문서 (문서 추가, 수정, 삭제)\n- [test] : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)\n- [chore] : 기타 변경사항 (빌드 스크립트 수정 등)\n\n## 체크 리스트\n\n1. 언어는 한국어/영어를 사용\n   예외) 최초 커밋 메시지는 \"Initial commit\"으로 한다.\n2. 제목과 본문은 'Commit Message Rules'를 준수\n   제목은 50자 이내로 제한\n   제목의 첫 글자는 대문자로 시작\n   제목 끝에 마침표(.) 생략\n   제목과 본문을 빈 행으로 분리\n   본문은 72자마다 끊어 줄 바꿈\n   본문을 목록으로 작성할 땐 '(공백)-(공백)'로 구분하기\n   본문에는 변경 내용과 이유 설명 (＇어떻게＇가 아닌 ＇무엇＇과 ＇왜＇)\n3. 제목과 본문 문장의 구성\n   문장은 간결하게 구성한다.\n   현재형을 사용한다.\n   작성한 당사자가 아닌 제3자가 이해할 수 있도록 작성한다.\n   단순한 문장일수록 좋다.\n4. 답변을 코드블럭에 넣어서 제공하지 마세요.\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "제목은 영어로 작성\n\n[커밋 타입] <현재 브랜치 명> <제목>\n\nex)\n\n[fix] CONBA-232 Fix error that occurred when clicking table column\n\n본문 - 한 줄에 최대 72 글자까지만 입력하기\n\n무엇을, 왜, 어떻게 했는지 .. 상대방이 의도를 알아줄 것이라는 추측은 배제하고 한글 작성\n\nex)\n\n- 테이블 컬럼 부분 클릭 시 발생하는 스크립트 오류 수정\n- 테이블 컬럼 'selected' 스타일 수정\n\n꼬리말\n\nRef: <현재 브랜치 명>\n\nex)\n\nRef: CONBA-232\n\n# 참고\n\n## 커밋 타입 리스트\n\n- [feat] : 기능 (새로운 기능)\n- [fix] : 버그 (버그 수정)\n- [refact] : 리팩토링\n- [rename] : 파일 혹은 폴더명을 수정하거나 옮기는 작업만 하는 경우\n- [remove] : 파일을 삭제하는 작업만 수행한 경우 design : CSS 등 사용자 UI 디자인 변경\n- [style] : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)\n- [docs] : 문서 (문서 추가, 수정, 삭제)\n- [test] : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)\n- [chore] : 기타 변경사항 (빌드 스크립트 수정 등)\n\n## 체크 리스트\n\n1. 언어는 한국어/영어를 사용\n   예외) 최초 커밋 메시지는 \"Initial commit\"으로 한다.\n2. 제목과 본문은 'Commit Message Rules'를 준수\n   제목은 50자 이내로 제한\n   제목의 첫 글자는 대문자로 시작\n   제목 끝에 마침표(.) 생략\n   제목과 본문을 빈 행으로 분리\n   본문은 72자마다 끊어 줄 바꿈\n   본문을 목록으로 작성할 땐 '(공백)-(공백)'로 구분하기\n   본문에는 변경 내용과 이유 설명 (＇어떻게＇가 아닌 ＇무엇＇과 ＇왜＇)\n3. 제목과 본문 문장의 구성\n   문장은 간결하게 구성한다.\n   현재형을 사용한다.\n   작성한 당사자가 아닌 제3자가 이해할 수 있도록 작성한다.\n   단순한 문장일수록 좋다.\n4. 답변을 코드블럭에 넣어서 제공하지 마세요.\n",
+            "href": null
+          }
+        ],
+        "language": "markdown"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80f3-a18e-e6e896c5df54",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:29:00.000Z",
+      "last_edited_time": "2025-02-27T01:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8071-8d6f-ec8b178ba324",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:14:00.000Z",
+      "last_edited_time": "2025-02-27T01:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.3 Hook 설치 스크립트 (setup.sh) 추가",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.3 Hook 설치 스크립트 (setup.sh) 추가",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-808e-82a3-f925543cffcd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:29:00.000Z",
+      "last_edited_time": "2025-02-27T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "commit-msg가 변경 되었을 때 쉽게 적용하기 위한 설치 스크립트 추가",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "commit-msg가 변경 되었을 때 쉽게 적용하기 위한 설치 스크립트 추가",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-80ba-9d41-f016c6b2ba33",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:30:00.000Z",
+      "last_edited_time": "2025-02-27T01:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "# 설치 스크립트 실행 권한 부여\nchmod +x ./hooks/setup.sh",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "# 설치 스크립트 실행 권한 부여\nchmod +x ./hooks/setup.sh",
+            "href": null
+          }
+        ],
+        "language": "bash"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8056-9c73-fec971bac934",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:14:00.000Z",
+      "last_edited_time": "2025-02-27T01:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "echo \"Setting up hooks...\"\ncp hooks/commit-msg .git/hooks/commit-msg\nchmod +x .git/hooks/commit-msg\necho \"Done.\"",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "echo \"Setting up hooks...\"\ncp hooks/commit-msg .git/hooks/commit-msg\nchmod +x .git/hooks/commit-msg\necho \"Done.\"",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a7dee7c-b4ee-8035-89a8-cae127673ab1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1a7dee7c-b4ee-80d1-bcd1-c785dd428d57"
+      },
+      "created_time": "2025-02-27T01:30:00.000Z",
+      "last_edited_time": "2025-02-27T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "6880a655-d3a4-405f-90d6-c372d2714791"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}
